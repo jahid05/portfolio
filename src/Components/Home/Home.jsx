@@ -63,7 +63,7 @@ const Home = () => {
               data-aos-duration="1000"
               to="https://drive.google.com/file/d/1D8MUq56X_EvM4EkJDmECALX8dV4OnuJ4/view?usp=drive_link"
               target="_blank"
-              className="hover:text-theme-300 group rounded-full relative flex items-center btn md:text-lg text-md font-semibold px-8 py-2 border-2 border-theme-100 text-theme-100"
+              className="hover:text-theme-300 normal-case bg-transparent group rounded-full relative flex items-center btn md:text-lg text-md font-semibold px-8 py-2 border-2 border-theme-100 text-theme-100"
             >
               <span className="absolute left-0 w-full h-0 transition-all rounded-full bg-theme-100 opacity-100 group-hover:h-full duration-700 "></span>
               <span className="relative">Download CV</span>

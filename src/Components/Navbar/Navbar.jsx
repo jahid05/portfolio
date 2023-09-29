@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import profile from "../../assets/Images/jahid.jpeg";
+import profile from "../../assets/Images/portfolio.jpg";
 import { useState } from "react";
 import {
   FaBarsStaggered,
