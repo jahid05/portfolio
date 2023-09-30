@@ -10,19 +10,19 @@ const Count = () => {
           <h6 className="md:text-6xl text-3xl font-bold text-theme-100">
             <CountUp start={0} end={20} duration={2} />+
           </h6>
-          <p className="md:font-semibold text-md md:text-xl text-white">Completed Projects</p>
+          <p className="md:font-semibold text-[10px] md:text-xl text-white">Completed Projects</p>
         </div>
         <div className="text-center">
           <h6 className="md:text-6xl text-3xl font-bold text-theme-100">
             <CountUp start={0} end={50} duration={2} />+
           </h6>
-          <p className="md:font-semibold text-md md:text-xl text-white">Happy Clients</p>
+          <p className="md:font-semibold text-[10px] md:text-xl text-white">Happy Clients</p>
         </div>
         <div className="text-center">
           <h6 className="md:text-6xl text-3xl font-bold text-theme-100">
             <CountUp start={0} end={2} duration={2} />
           </h6>
-          <p className="md:font-semibold text-md md:text-xl text-white">Years Experience</p>
+          <p className="md:font-semibold text-[10px] md:text-xl text-white">Years Experience</p>
         </div>
       </div>
     </div>

@@ -19,5 +19,26 @@
     "image": "https://i.ibb.co/cvy63V9/kids-land.png",
     "technology": ["React", "React-router", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", "daisyUI", "Swiper", "AOS-Animate", "GitHub", "Vercel"],
     "preview": "https://kidsland-12cd7.web.app/"
+  },
+  {
+    "id": 4,
+    "name": "Culsine Food",
+    "image": "https://i.ibb.co/qYmQnPm/culsine-food.png",
+    "technology": ["React", "React-router", "Tailwind CSS", "daisyUI", "Swiper", "AOS-Animate", "GitHub", "Netlify"],
+    "preview": "https://culsine-food.netlify.app/"
+  },
+  {
+    "id": 5,
+    "name": "Edu Hub",
+    "image": "https://i.ibb.co/Zz21XyN/edu-hub.png",
+    "technology": ["React", "React-router", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", "daisyUI", "Swiper", "AOS-Animate", "GitHub", "Vercel"],
+    "preview": "https://edu-hub-cc41c.web.app/"
+  },
+  {
+    "id": 6,
+    "name": "Kids Land",
+    "image": "https://i.ibb.co/cvy63V9/kids-land.png",
+    "technology": ["React", "React-router", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", "daisyUI", "Swiper", "AOS-Animate", "GitHub", "Vercel"],
+    "preview": "https://kidsland-12cd7.web.app/"
   }
 ]

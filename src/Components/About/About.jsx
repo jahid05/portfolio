@@ -7,18 +7,18 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="bg-theme-300 min-h-screen px-8">
+    <div className="bg-theme-300 min-h-fit px-8">
       <SectionTitle title="About me"></SectionTitle>
 
-      <div className="container mx-auto md:px-48 grid md:grid-cols-7 md:gap-y-0 md:gap-x-20">
-        <div className="md:col-start-1 md:col-span-3 md:py-20">
+      <div className="container mx-auto lg:px-48 grid lg:grid-cols-7 lg:gap-y-0 lg:gap-x-20">
+        <div className="lg:col-start-1 lg:col-span-3 md:py-20">
           <div
             data-aos="fade-right"
             data-aos-easing="liner"
             data-aos-duration="1000"
             className="flex justify-center relative"
           >
-            <figure className="rounded-3xl border-4 mb-4 w-72 border-theme-100 p-2">
+            <figure className="rounded-3xl border-4 mb-4 w-56 lg:w-72 border-theme-100 p-1">
               <img
                 className="rounded-3xl w-full h-full hover:scale-105 transition-all duration-700"
                 src={aboutProfile}
@@ -26,7 +26,7 @@ const About = () => {
               />
             </figure>
             <img
-              className="absolute animate-pulse -top-14 md:-top-20 -right-2 w-36 md:w-44"
+              className="absolute animate-pulse -top-10 md:-top-20 -right-2  lg:-right-2 w-32 md:w-44"
               src={texture}
               alt=""
             />
@@ -59,14 +59,14 @@ const About = () => {
           </div>
         </div>
 
-        <div className="text-justify md:col-start-4 md:col-span-4">
+        <div className="text-justify lg:col-start-4 lg:col-span-4">
           <div
             data-aos="fade-down-left"
             data-aos-easing="liner"
             data-aos-duration="1000"
             className=""
           >
-            <p className="md:text-lg text-slate-400 py-4">
+            <p className="md:text-lg text-sm text-slate-400 py-4">
               I am Md. Jahid Al Hassan. I have completed a Bachelor of Science in
               Computer Science and Engineering from Sonargaon University. I am a
               front-end developer. I have been doing front-end work for a year.

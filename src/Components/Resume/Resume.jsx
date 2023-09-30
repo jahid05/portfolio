@@ -106,22 +106,22 @@ const Resume = () => {
                   data-aos-duration="1000"
                   className="flex md:gap-x-14 gap-x-4 text-gray-500 text-2xl md:text-4xl"
                 >
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <FaHtml5></FaHtml5>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <FaCss3></FaCss3>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <FaBootstrap></FaBootstrap>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <SiTailwindcss></SiTailwindcss>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <FaJs></FaJs>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <FaReact></FaReact>
                   </span>
                 </div>
@@ -139,16 +139,16 @@ const Resume = () => {
                   data-aos-duration="1000"
                   className="flex md:gap-x-14 gap-x-4 text-gray-500 text-2xl md:text-4xl"
                 >
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <FaNodeJs></FaNodeJs>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <SiExpress></SiExpress>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <SiMongodb></SiMongodb>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <SiFirebase></SiFirebase>
                   </span>
                 </div>
@@ -166,19 +166,19 @@ const Resume = () => {
                   data-aos-duration="1000"
                   className="flex md:gap-x-14 gap-x-4 text-gray-500 text-2xl md:text-4xl"
                 >
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <SiNetlify></SiNetlify>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <SiVercel></SiVercel>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <FaGithub></FaGithub>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <FaFigma></FaFigma>
                   </span>
-                  <span className="hover:scale-110 hover:text-theme-400 transition-all duration-500 shadow-lg p-2">
+                  <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
                     <SiAdobephotoshop></SiAdobephotoshop>
                   </span>
                 </div>
