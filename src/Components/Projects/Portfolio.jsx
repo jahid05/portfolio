@@ -59,7 +59,7 @@ const Portfolio = () => {
               >
                 <figure className="h-56 md:h-72">
                   <div className="h-full bg-top-0">
-                    <img className="hover:bg-bottom-0" src={project.image} />
+                    <img className="hover:bg-bottom-0 hover:scale-110 duration-700" src={project.image} />
                   </div>
                 </figure>
                 <div className="h-52 flex flex-col justify-around p-4">

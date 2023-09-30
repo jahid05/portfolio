@@ -7,20 +7,20 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="bg-theme-300 min-h-fit px-8">
+    <div className="bg-theme-300 min-h-screen px-8">
       <SectionTitle title="About me"></SectionTitle>
 
       <div className="container mx-auto lg:px-48 grid lg:grid-cols-7 lg:gap-y-0 lg:gap-x-20">
-        <div className="lg:col-start-1 lg:col-span-3 md:py-20">
+        <div className="lg:col-start-1 lg:col-span-3 md:py-16">
           <div
             data-aos="fade-right"
             data-aos-easing="liner"
             data-aos-duration="1000"
             className="flex justify-center relative"
           >
-            <figure className="rounded-3xl border-4 mb-4 w-56 lg:w-72 border-theme-100 p-1">
+            <figure className="rounded-3xl border-[3px] mb-4 w-56 lg:w-72 border-theme-100 overflow-hidden">
               <img
-                className="rounded-3xl w-full h-full hover:scale-105 transition-all duration-700"
+                className="rounded-3xl w-full h-full hover:scale-105 p-2 transition-all duration-700"
                 src={aboutProfile}
                 alt="Profile Picture"
               />
