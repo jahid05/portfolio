@@ -46,14 +46,17 @@ const Portfolio = () => {
           prevEl: ".button_prev",
         }}
         modules={[Navigation]}
-        
         className="mySwiper"
       >
-        
         <div className="h-96">
           {projects.map((project) => (
             <SwiperSlide key={project.id}>
-              <div className="card card-compact shadow-xl bg-theme-300">
+              <div
+                data-aos="zoom-in"
+                data-aos-easing="liner"
+                data-aos-duration="1000"
+                className="card card-compact shadow-xl bg-theme-300"
+              >
                 <figure className="h-56 md:h-72">
                   <div className="h-full bg-top-0">
                     <img className="hover:bg-bottom-0" src={project.image} />
