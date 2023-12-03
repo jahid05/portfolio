@@ -20,14 +20,14 @@
     color:#CAD5E2;
   }
   .react-tabs__tab:hover{
-    border-bottom: 3px solid #00B207;
-    color: #00B207;
+    border-bottom: 3px solid #ff014f;
+    color: #ff014f;
     transition: all 1s;
   }
   
   .react-tabs__tab--selected {
-    border-bottom: 2px solid #00B207;
-    color: #00B207;
+    border-bottom: 2px solid #ff014f;
+    color: #ff014f;
     transition: all 1s;
     outline: none;
   }

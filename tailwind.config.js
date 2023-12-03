@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         transparent: "transparent",
-        "theme-100": "#00B207",
+        "theme-100": "#ff014f",
         "theme-200": "#ff014f",
         "theme-300": "#2C3333",
         "theme-400": "#CAD5E2",

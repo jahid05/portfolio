@@ -37,7 +37,7 @@ const Home = () => {
           <h2 data-aos="fade-right"
           data-aos-easing="liner"
           data-aos-duration="1000" className="md:text-4xl text-2xl font-semibold text-theme-400">
-            Hi, I’m Md Jahid Al Hassan
+            Hi, I’m Md <span className="text-theme-100">Jahid</span> Al Hassan
           </h2>
           <div className="flex text-xl md:text-3xl font-light gap-x-4 text-theme-400">
             <h1>I am a </h1>
@@ -52,7 +52,7 @@ const Home = () => {
                 words={[
                   "Front-end Developer",
                   "React Developer",
-                  "JavaScript Developer",
+                  "MERN Stack Developer",
                 ]}
               />
             </h1>
@@ -61,7 +61,7 @@ const Home = () => {
               data-aos="fade-up"
               data-aos-easing="liner"
               data-aos-duration="1000"
-              to="https://drive.google.com/file/d/1SKoNHzQxDaGn982t8Q4DEIGRejOKEA0n/view?usp=drive_link"
+              to="https://drive.google.com/file/d/1gZIQWxy42OkciVzpvxBbuF2xltPy4Q49/view?usp=drive_link"
               target="_blank"
               className="hover:text-theme-300 normal-case bg-transparent group rounded-full relative flex items-center btn md:text-lg text-md font-semibold px-8 py-2 border-2 border-theme-100 text-theme-100"
             >
@@ -105,7 +105,7 @@ const Home = () => {
           },
           particles: {
             color: {
-              value: "#00B207",
+              value: "#ff014f",
             },
             links: {
               color: "#FFFFFF",
