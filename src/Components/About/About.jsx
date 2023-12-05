@@ -49,7 +49,7 @@ const About = () => {
               data-aos="fade-up"
               data-aos-easing="liner"
               data-aos-duration="1000"
-              to="https://drive.google.com/file/d/1gZIQWxy42OkciVzpvxBbuF2xltPy4Q49/view?usp=drive_link"
+              to="https://drive.google.com/file/d/1BjD91AxgBZElggtQ7Lbuw0CKnXM_H7_a/view?usp=drive_link"
               target="_blank"
               className="hover:text-theme-300 normal-case bg-transparent group rounded-full relative flex items-center btn md:text-lg text-md font-semibold px-8 py-2 border-2 border-theme-100 text-theme-100"
             >
