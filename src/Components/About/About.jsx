@@ -45,7 +45,7 @@ const About = () => {
             </h3>
           </div>
           <div className="flex justify-center py-6">
-          <Link
+            <Link
               data-aos="fade-up"
               data-aos-easing="liner"
               data-aos-duration="700"
@@ -59,7 +59,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="text-justify lg:col-start-4 lg:col-span-4">
+        <div className="lg:col-start-4 lg:col-span-4">
           <div
             data-aos="fade-down-left"
             data-aos-easing="liner"
@@ -67,13 +67,13 @@ const About = () => {
             className=""
           >
             <p className="md:text-lg text-sm text-slate-400 py-4">
-              I am Md. Jahid Al Hassan. I have completed a Bachelor of Science in
-              Computer Science and Engineering from Sonargaon University. I am a
-              front-end developer. I have been doing front-end work for a year.
-              I am currently learning the MERN Stack
-            </p>
-            <p className="md:text-lg text-slate-400 py-4">
-            I have good knowledge of web programming languages. JavaScript, React.js, Node.js, Express.js, MongoDB, Firebase. and the CSS framework Bootstrap, Tailwind CSS. the use of tools are VScode, GitHub, Versal, Netlify, Figma
+              Passionate Frontend Developer with a keen eye for detail and a
+              dedication to crafting engaging and intuitive user experiences.
+              With 1 year of experience in frontend development, I specialize in
+              building responsive web applications using cutting-edge
+              technologies such as HTML5, CSS3, Bootstrap, TailwindCSS, and
+              JavaScript frameworks like React.js. I have the basic knowledge of
+              node.js, express.js, firebase, MongoDB
             </p>
           </div>
           <Count></Count>
