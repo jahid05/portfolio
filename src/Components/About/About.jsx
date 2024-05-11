@@ -15,7 +15,7 @@ const About = () => {
           <div
             data-aos="fade-right"
             data-aos-easing="liner"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             className="flex justify-center relative"
           >
             <figure className="rounded-3xl border-[3px] mb-4 w-56 lg:w-72 border-theme-100 overflow-hidden">
@@ -34,10 +34,10 @@ const About = () => {
           <div
             data-aos="zoom-in"
             data-aos-easing="liner"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             className="text-center"
           >
-            <h1 className="text-theme-400 md:text-4xl text-2xl font-semibold">
+            <h1 className="text-theme-400 md:text-3xl text-2xl font-semibold">
               I'm <span className="text-theme-100">Md Jahid Al Hassan</span>
             </h1>
             <h3 className="text-slate-400 font-semibold">
@@ -48,7 +48,7 @@ const About = () => {
           <Link
               data-aos="fade-up"
               data-aos-easing="liner"
-              data-aos-duration="1000"
+              data-aos-duration="700"
               to="https://drive.google.com/file/d/1BjD91AxgBZElggtQ7Lbuw0CKnXM_H7_a/view?usp=drive_link"
               target="_blank"
               className="hover:text-theme-300 normal-case bg-transparent group rounded-full relative flex items-center btn md:text-lg text-md font-semibold px-8 py-2 border-2 border-theme-100 text-theme-100"
@@ -63,7 +63,7 @@ const About = () => {
           <div
             data-aos="fade-down-left"
             data-aos-easing="liner"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             className=""
           >
             <p className="md:text-lg text-sm text-slate-400 py-4">

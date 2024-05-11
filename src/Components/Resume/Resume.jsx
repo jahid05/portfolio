@@ -30,7 +30,7 @@ const Resume = () => {
           <TabList
             data-aos="fade-left"
             data-aos-easing="liner"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             className="flex justify-center pb-6"
           >
             <Tab>
@@ -49,7 +49,7 @@ const Resume = () => {
           <ol
                 data-aos="zoom-in"
                 data-aos-easing="liner"
-                data-aos-duration="1000"
+                data-aos-duration="700"
                 className="relative border-l border-white"
               >
                 <li className="mt-8 ml-6 ">
@@ -95,7 +95,7 @@ const Resume = () => {
                 <h2
                   data-aos="fade-left"
                   data-aos-easing="liner"
-                  data-aos-duration="1000"
+                  data-aos-duration="700"
                   className="md:text-2xl text-theme-400 border-b border-theme-100 font-bold md:mb-4 md:mt-14 mb-2"
                 >
                   Expertise
@@ -103,7 +103,7 @@ const Resume = () => {
                 <div
                   data-aos="fade-left"
                   data-aos-easing="liner"
-                  data-aos-duration="1000"
+                  data-aos-duration="700"
                   className="flex md:gap-x-14 gap-x-4 text-gray-500 text-2xl md:text-4xl"
                 >
                   <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
@@ -128,15 +128,15 @@ const Resume = () => {
                 <h2
                   data-aos="zoom-in"
                   data-aos-easing="liner"
-                  data-aos-duration="1000"
+                  data-aos-duration="700"
                   className="md:text-2xl text-theme-400 border-b border-theme-100 font-bold md:my-4 md:mt-14 mt-8 mb-2"
                 >
-                  Comfortable
+                  Basic Knowledge
                 </h2>
                 <div
                   data-aos="zoom-in"
                   data-aos-easing="liner"
-                  data-aos-duration="1000"
+                  data-aos-duration="700"
                   className="flex md:gap-x-14 gap-x-4 text-gray-500 text-2xl md:text-4xl"
                 >
                   <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">
@@ -155,7 +155,7 @@ const Resume = () => {
                 <h2
                   data-aos="fade-left"
                   data-aos-easing="liner"
-                  data-aos-duration="1000"
+                  data-aos-duration="700"
                   className="md:text-2xl text-theme-400 border-b border-theme-100 font-bold md:my-4 md:mt-14 mt-8 mb-2"
                 >
                   Tools and technology
@@ -163,7 +163,7 @@ const Resume = () => {
                 <div
                   data-aos="fade-left"
                   data-aos-easing="liner"
-                  data-aos-duration="1000"
+                  data-aos-duration="700"
                   className="flex md:gap-x-14 gap-x-4 text-gray-500 text-2xl md:text-4xl"
                 >
                   <span className="hover:scale-110 rounded-full hover:text-theme-100 transition-all duration-500 shadow-lg p-2">

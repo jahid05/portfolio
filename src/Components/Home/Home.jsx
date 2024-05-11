@@ -23,7 +23,7 @@ const Home = () => {
             data-aos="fade-down"
             data-aos-anchor-placement="top-center"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             className="flex flex-col items-center"
           >
             <figure className="md:w-64 md:h-64 w-40 h-40 border-4 rounded-full border-theme-100 p-1">
@@ -36,7 +36,7 @@ const Home = () => {
           </div>
           <h2 data-aos="fade-right"
           data-aos-easing="liner"
-          data-aos-duration="1000" className="md:text-4xl text-2xl font-semibold text-theme-400">
+          data-aos-duration="700" className="md:text-4xl text-2xl font-semibold text-theme-400">
             Hi, I’m Md <span className="text-theme-100">Jahid</span> Al Hassan
           </h2>
           <div className="flex text-xl md:text-3xl font-light gap-x-4 text-theme-400">
@@ -60,7 +60,7 @@ const Home = () => {
           <Link
               data-aos="fade-up"
               data-aos-easing="liner"
-              data-aos-duration="1000"
+              data-aos-duration="700"
               to="https://drive.google.com/file/d/1BjD91AxgBZElggtQ7Lbuw0CKnXM_H7_a/view?usp=drive_link"
               target="_blank"
               className="hover:text-theme-300 normal-case bg-transparent group rounded-full relative flex items-center btn md:text-lg text-md font-semibold px-8 py-2 border-2 border-theme-100 text-theme-100"
@@ -105,11 +105,11 @@ const Home = () => {
           },
           particles: {
             color: {
-              value: "#ff014f",
+              value: "#41B06E",
             },
             links: {
               color: "#FFFFFF",
-              distance: 150,
+              distance: 120,
               enable: true,
               opacity: 0.5,
               width: 1,

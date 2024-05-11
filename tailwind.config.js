@@ -8,13 +8,13 @@ export default {
     extend: {
       colors: {
         transparent: "transparent",
-        "theme-100": "#ff014f",
+        "theme-100": "#41B06E",
         "theme-200": "#ff014f",
-        "theme-300": "#2C3333",
+        "theme-300": "#282C33",
         "theme-400": "#CAD5E2",
       },
       fontFamily: {
-        'custom-100': ['Poppins', 'sans-serif'],
+        'custom-100': ["Fira Code", "monospace"],
       },
       animation: {
         fadeIn: "fadeIn 1200ms ease-in forwards"

@@ -5,7 +5,7 @@ const Count = () => {
     <div className="md:py-36 py-12">
       <div data-aos="zoom-in-up"
           data-aos-easing="liner"
-          data-aos-duration="1000" className="grid grid-cols-3">
+          data-aos-duration="700" className="grid grid-cols-3">
         <div className="text-center">
           <h6 className="md:text-6xl text-3xl font-bold text-theme-100">
             <CountUp start={0} end={20} duration={2} />+

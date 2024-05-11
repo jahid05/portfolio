@@ -33,7 +33,7 @@ const Contact = () => {
         <div
           data-aos="zoom-in-right"
           data-aos-easing="liner"
-          data-aos-duration="1000"
+          data-aos-duration="700"
         >
           <p className="text-theme-100 font-bold text-2xl md:text-4xl text-center ">
             Get in touch
@@ -98,7 +98,7 @@ const Contact = () => {
           <div
             data-aos="zoom-in-down"
             data-aos-easing="liner"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             className="border-2 border-theme-100 text-theme-300 p-1 h-32 rounded-2xl"
           >
             <div className="bg-theme-100 h-full p-4 rounded-2xl">
@@ -114,7 +114,7 @@ const Contact = () => {
           <div
             data-aos="zoom-in"
             data-aos-easing="liner"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             className="border-2 border-theme-100 text-theme-300 p-1 h-32 rounded-2xl"
           >
             <div className="bg-theme-100 h-full p-4 rounded-2xl">
@@ -130,7 +130,7 @@ const Contact = () => {
           <div
             data-aos="zoom-in-up"
             data-aos-easing="liner"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             className="border-2 border-theme-100 text-theme-300 p-1 h-32 rounded-2xl"
           >
             <div className="bg-theme-100 h-full p-4 rounded-2xl">

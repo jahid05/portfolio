@@ -22,23 +22,37 @@
   },
   {
     "id": 4,
+    "name": "Bizpro Agency",
+    "image": "https://i.ibb.co/XScksFv/screencapture-localhost-5173-2024-05-11-21-22-22.png",
+    "technology": ["React", "React-router", "Tailwind CSS", "Keep-React UI", "Swiper", "AOS-Animate", "React-Spinners", "GitHub", "Netlify"],
+    "preview": "https://bizprobd.netlify.app/"
+  },
+  {
+    "id": 5,
     "name": "Culsine Food",
     "image": "https://i.ibb.co/qYmQnPm/culsine-food.png",
     "technology": ["React", "React-router", "Tailwind CSS", "daisyUI", "Swiper", "AOS-Animate", "GitHub", "Netlify"],
     "preview": "https://culsine-food.netlify.app/"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Edu Hub",
     "image": "https://i.ibb.co/Zz21XyN/edu-hub.png",
     "technology": ["React", "React-router", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", "daisyUI", "Swiper", "AOS-Animate", "GitHub", "Vercel"],
     "preview": "https://edu-hub-cc41c.web.app/"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Kids Land",
     "image": "https://i.ibb.co/cvy63V9/kids-land.png",
     "technology": ["React", "React-router", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", "daisyUI", "Swiper", "AOS-Animate", "GitHub", "Vercel"],
     "preview": "https://kidsland-12cd7.web.app/"
+  },
+  {
+    "id": 8,
+    "name": "Bizpro Agency",
+    "image": "https://i.ibb.co/XScksFv/screencapture-localhost-5173-2024-05-11-21-22-22.png",
+    "technology": ["React", "React-router", "Tailwind CSS", "Keep-React UI", "Swiper", "AOS-Animate", "React-Spinners", "GitHub", "Netlify"],
+    "preview": "https://bizprobd.netlify.app/"
   }
 ]

@@ -1,12 +1,11 @@
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 import "./style.css";
 
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 import SectionTitle from "../Shared/SectionTitle/SectionTitle";
 import { useEffect, useState } from "react";
@@ -27,6 +26,10 @@ const Portfolio = () => {
       <SectionTitle title="Projects"></SectionTitle>
       <Swiper
         loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
           640: {
             slidesPerView: 1,
@@ -45,7 +48,7 @@ const Portfolio = () => {
           nextEl: ".button_next",
           prevEl: ".button_prev",
         }}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         className="mySwiper"
       >
         <div className="h-96">
@@ -54,15 +57,18 @@ const Portfolio = () => {
               <div
                 data-aos="zoom-in"
                 data-aos-easing="liner"
-                data-aos-duration="1000"
+                data-aos-duration="700"
                 className="card card-compact shadow-xl bg-theme-300"
               >
                 <figure className="h-56 md:h-72">
-                  <div className="h-full bg-top-0">
-                    <img className="hover:bg-bottom-0 hover:scale-110 duration-700" src={project.image} />
+                  <div className="h-full top-0">
+                    <img
+                      className="hover:bottom-0 hover:scale-110 duration-700"
+                      src={project.image}
+                    />
                   </div>
                 </figure>
-                <div className="h-52 flex flex-col justify-around p-4">
+                <div className="h-52 flex flex-col justify-around ">
                   <h2 className="card-title text-gray-200">{project.name}</h2>
                   <div className="flex gap-1 flex-wrap">
                     {project.technology.map((tech) => (
@@ -74,13 +80,13 @@ const Portfolio = () => {
                       </div>
                     ))}
                   </div>
-                  <div className="card-actions justify-end">
+                  <div className="card-actions justify-end  mt-4">
                     <Link
                       target="_blank"
                       to={project.preview}
-                      className="btn md:text-xl bg-gray-800 text-theme-100 shadow-lg border-none"
+                      className="w-full normal-case bg-theme-100 btn md:text-xl text-theme-400 shadow-lg border-none rounded-none rounded-b-xl"
                     >
-                      <FaExternalLinkAlt></FaExternalLinkAlt>
+                      Live Site <FaExternalLinkAlt />
                     </Link>
                   </div>
                 </div>

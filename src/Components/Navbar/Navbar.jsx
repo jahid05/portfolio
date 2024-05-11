@@ -34,7 +34,7 @@ const Navbar = () => {
         <div
           data-aos="zoom-in"
           data-aos-easing="linear"
-          data-aos-duration="1000"
+          data-aos-duration="700"
           className="flex flex-col items-center"
         >
           <figure className="rounded-full md:w-40 md:h-40 w-32 h-32 border-2 border-theme-100 p-1">
@@ -48,7 +48,7 @@ const Navbar = () => {
         <ul
           data-aos="zoom-in-right"
           data-aos-easing="liner"
-          data-aos-duration="1000"
+          data-aos-duration="700"
           onClick={() => setOpen(!open)}
           className="grid grid-cols-1 md:gap-y-6 gap-y-2 text-center"
         >
@@ -62,7 +62,7 @@ const Navbar = () => {
                 : "text-lg hover:border-theme-100 px-16 pb-1 border-b-2 border-transparent  hover:text-theme-100 duration-700 transition-all"
             }
           >
-            Home
+            <span className="text-theme-100">#</span>Home
           </NavLink>
           <NavLink
             to="/about"
@@ -74,7 +74,7 @@ const Navbar = () => {
                 : "text-lg hover:border-theme-100 px-16 pb-1 border-b-2 border-transparent  hover:text-theme-100 duration-700 transition-all"
             }
           >
-            About Me
+                        <span className="text-theme-100">#</span>About Me
           </NavLink>
           <NavLink
             to="/resume"
@@ -86,7 +86,7 @@ const Navbar = () => {
                 : "text-lg hover:border-theme-100 px-16 pb-1 border-b-2 border-transparent  hover:text-theme-100 duration-700 transition-all"
             }
           >
-            Resume
+            <span className="text-theme-100">#</span>Resume
           </NavLink>
           <NavLink
             to="/projects"
@@ -98,7 +98,7 @@ const Navbar = () => {
                 : "text-lg hover:border-theme-100 px-16 pb-1 border-b-2 border-transparent  hover:text-theme-100 duration-700 transition-all"
             }
           >
-            Projects
+            <span className="text-theme-100">#</span>Projects
           </NavLink>
           <NavLink
             to="/contact"
@@ -110,14 +110,14 @@ const Navbar = () => {
                 : "text-lg hover:border-theme-100 px-16 pb-1 border-b-2 border-transparent  hover:text-theme-100 duration-700 transition-all"
             }
           >
-            Contact
+            <span className="text-theme-100">#</span>Contact
           </NavLink>
         </ul>
         <div className="flex gap-x-4">
           <Link
             data-aos="flip-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             to="https://www.facebook.com/jahid1705"
             target="_blank"
             className="rounded-full w-12 h-12 p-1 border-2 border-theme-100 flex justify-center items-center"
@@ -129,7 +129,7 @@ const Navbar = () => {
           <Link
             data-aos="zoom-in"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             to="https://github.com/jahid05"
             target="_blank"
             className="rounded-full w-12 h-12 p-1 border-2 border-theme-100 flex justify-center items-center"
@@ -141,7 +141,7 @@ const Navbar = () => {
           <Link
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000"
+            data-aos-duration="700"
             to="https://www.linkedin.com/in/jahid05/"
             target="_blank"
             className="rounded-full w-12 h-12 p-1 border-2 border-theme-100 flex justify-center items-center"
