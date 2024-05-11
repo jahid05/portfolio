@@ -67,13 +67,7 @@ const About = () => {
             className=""
           >
             <p className="md:text-lg text-sm text-slate-400 py-4">
-              Passionate Frontend Developer with a keen eye for detail and a
-              dedication to crafting engaging and intuitive user experiences.
-              With 1 year of experience in frontend development, I specialize in
-              building responsive web applications using cutting-edge
-              technologies such as HTML5, CSS3, Bootstrap, TailwindCSS, and
-              JavaScript frameworks like React.js. I have the basic knowledge of
-              node.js, express.js, firebase, MongoDB
+            I have proficiency in HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React JS, Responsive Design, and Problem Solving. I have basic knowledge of Firebase, MongoDB, NodeJS, and Express JS. I am currently operating tools Visual Studio Code, Git & GitHub, Vercel, Netlify, and Basic Figma & Adobe Photoshop. Seeking a challenging role where I can leverage my skills and contribute to cutting-edge projects in a collaborative and growth-oriented environment.
             </p>
           </div>
           <Count></Count>
